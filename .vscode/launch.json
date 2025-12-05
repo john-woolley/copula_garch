@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+    
+        {
+            "name": "Python Debugger: Module",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "garch",
+            "cwd": "/home/augustus/copula_garch", // Ensures it starts from the root
+            "env": {
+                "PYTHONPATH": "/home/augustus/copula_garch"
+            },
+            "justMyCode": false
+        }
+    ]
+}
+
